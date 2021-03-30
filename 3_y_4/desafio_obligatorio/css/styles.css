@@ -1,0 +1,62 @@
+:root {
+    --fuente_titulos: 'Lato', sans-serif;
+    --fuente_textos: 'Roboto', sans-serif;
+}
+html {
+    font-size: 62.5%;/* 1 rem = 10px*/
+    box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+body {
+    font-size: 16px;
+}
+
+.encabezado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+}
+@media (min-width: 768px) {
+    .encabezado {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+.titulo {
+    font-family: var(--fuente_titulos);
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.encabezado i {
+    font-size: 3rem;
+}
+
+.texto {
+    font-family: var(--fuente_textos);
+    font-size: 2.5rem;
+    text-align: center;
+}
+.col-sm,
+.col-md-6,
+.col-lg-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_remera {
+    text-align: center;
+    font-size: 2rem;
+}
+.info_remera-dibujo {
+    text-transform: uppercase;
+    font-family: var(--fuente_textos);
+}
