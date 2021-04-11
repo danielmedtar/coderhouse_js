@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Afertclass funciones</h1>
+    <h2>Scope - Saludar</h2>
+    <h3>Ejercicio 1. Declaración y llamado de la función</h3>
+    <p>Si la funcion encuentra una variable en su ámbito local, aunque tenga el mismo nombre de una en el ámbito global global, va a usar siempre la del ámbito local. Siempre busca primero en su propio ámbito antes de ejecutar.</p>
+    
+    <p>En caso que en dos funciones distintas hayan variables con el mismo nombre, estas no se van a superponer ni confundir entre sí, ya que las variables declaradas dentro de funciones, solo viven dentro de ellas mismas.</p>
+
+    <h3>Ejercicio 2. Parámetros</h3>
+    <p>Un parámetro básicamente es una variable local para la función. Al momento de llamar a una función con parámetros, dentro de los paréntesis debe colocarse el valor que queremos que tome para ejecutarse. En el caso del ejemplo: saludarDeNuevo(saludo), pero puede colocarsele cualquier cosa.</p>
+
+    <h3>Ejercicio 3. Llamar funciones dentro de otras funciones. Ver ejemplo 3 en archivo app.js</h3>
+    <p>Para que esto se ejecute correctamente, dentro de una función solo se hace el llamado a la otra, es decir, el saludarDeNuevo("Mensaje cualquiera"), más no se declara esa funcion dentro de otra.</p>
+
+    <p>Toda función se declara dentro de su propio espacio.</p>
+
+    <h3>Funciones flecha o Arrow Functions</h3>
+    <p>Es la forma mas recomendable de escribir funciones, se declaran mediante variables let o const, y con =>. Por eso el nombre flecha</p>
+
+    <p>Para ver mejor la sintáxis, ver ejemplos.</p>
+
+    <h3>Ejercicio 4. Sumar números</h3>
+    <p>Si necesito que la función devuelva algo, como por ejemplo, el resultado de la suma para poder mostrarlo en consola, o usarlo posteriormente, es necesario indicarle a la función que DEBE devolver algo, para eso se usa la palabra reservada <b>return.</b> Ver ejemplo</p>
+
+    <p>Es mas recomendable escribir una sola función para cada tarea, y no una función que haga varias tareas. Siempre definirlas con nombres lo mas descriptivos posible. Todo esto para mejor legibilidad y entendimiento</p>
+
+    <p>La palabra reservada <b>return</b> devuelve valores, pero también corta un ciclo. Ver ejemplo del Préstamo.</p>
+
+    <script src="app.js"></script>
+</body>
+</html>
