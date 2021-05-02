@@ -14,6 +14,7 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
   }
+
 body {
     font-size: 16px;
 }
@@ -54,6 +55,9 @@ body {
 
 /* ENCABEZADO */
 .encabezado {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -124,7 +128,7 @@ button.boton-filtro {
     margin-bottom: 30px;
 }
 .separacion_productos {
-    margin-bottom: 50px;
+    margin: 100px 0;
 }
 
 .img-producto {
