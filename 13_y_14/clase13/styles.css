@@ -1,0 +1,7 @@
+/* .mensaje {
+    display: none;
+} */
+.mensaje-modificado {
+    background-color: blue;
+    color: red;
+}
